@@ -42,7 +42,7 @@ const Header = () => {
 							initial={{ y: -10, opacity: 0 }}
 							animate={{ y: 0, opacity: 1 }}
 							transition={{ duration: 0.1, delay: 0.2 }}
-							className="hover:text-teal-500 cursor-pointer duration-300 py-4"
+							className="hover:text-teal-500 cursor-pointer duration-300 py-4 target:"
 						>
 							About Us
 						</motion.li>
@@ -116,6 +116,7 @@ const Header = () => {
 										animate={{ x: 0, opacity: 1 }}
 										transition={{ duration: 0.1 }}
 										className="hover:text-teal-500 cursor-pointer duration-300"
+										onClick={() => setShowMenu(false)}
 									>
 										Home
 									</motion.li>
@@ -140,14 +141,15 @@ const Header = () => {
 										Product
 									</motion.li>
 								</Link>
-								<Link href={"/catact"}>
+								<Link href={"/contact"}>
 									<motion.li
 										initial={{ x: 20, opacity: 0 }}
 										animate={{ x: 0, opacity: 1 }}
 										transition={{ duration: 0.4, delay: 0.4 }}
 										className="hover:text-teal-500 cursor-pointer duration-300"
+										onClick={() => setShowMenu(false)}
 									>
-										Catact
+										Contact
 									</motion.li>
 								</Link>
 							</ul>
