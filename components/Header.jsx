@@ -19,8 +19,6 @@ const Header = () => {
 					<img
 						className="sml:w-[126px] sml:h-[40px] md:w-[146px] md:h-[40px] lg:w-[180px] lg:h-[60px]"
 						src={"/logo.png"}
-						width={180}
-						height={60}
 						alt="logo"
 					/>
 				</div>
