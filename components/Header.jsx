@@ -15,9 +15,9 @@ const Header = () => {
 				animate={{ opacity: 1 }}
 				transition={{ duration: 0.5 }}
 			>
-				<div>
+				<div className="sml:mx-2 md:mx-10">
 					<img
-						className="sml:w-[126px] sml:h-[40px] md:w-[146px] md:h-[40px] lg:w-[180px] lg:h-[60px]"
+						className="sml:w-[110px] sml:h-[35px] md:w-[126px] md:h-[40px] lg:w-[180px] lg:h-[60px]"
 						src={"/logo.png"}
 						alt="logo"
 					/>
@@ -35,7 +35,7 @@ const Header = () => {
 							Home
 						</motion.li>
 					</Link>
-					<Link href={"/"}>
+					<Link href={"/about"}>
 						<motion.li
 							initial={{ y: -10, opacity: 0 }}
 							animate={{ y: 0, opacity: 1 }}
@@ -55,7 +55,7 @@ const Header = () => {
 							Product
 						</motion.li>
 					</Link>
-					<Link href={"/"}>
+					<Link href={"/contact"}>
 						<motion.li
 							initial={{ y: -10, opacity: 0 }}
 							animate={{ y: 0, opacity: 1 }}

@@ -11,9 +11,8 @@ module.exports = {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-				"sea1": "url('/')",
-				"sea2": "url('/)",
-				"sea3": "url('/')",
+				"sea1": "url('/sea1.jpg')",
+				"sea2": "url('/sea2.jpg')",
 			},
 			screens: {
 				xs: "320px",
@@ -27,7 +26,6 @@ module.exports = {
 			},
 		},
 	},
-	//图片纵横比插件：npm install @tailwindcss/aspect-ratio
 	plugins: [require("@tailwindcss/aspect-ratio")],
 };
 

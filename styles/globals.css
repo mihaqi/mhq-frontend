@@ -128,10 +128,8 @@
 @media screen and (min-width: 667px) {
 	.thumbs {
 		visibility: visible;
+		display: inline;
 		margin: 0;
 		padding: 0;
 	}
-}
-.thumbs-wrapper.axis-vertical {
-	display: none;
 }
