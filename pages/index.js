@@ -20,7 +20,7 @@ export default function Home({ products }) {
 					</div>
 					{/* products grid end */}
 				</Wrapper>
-				<div className="min-h-screen flex justify-center items-center bg-sea1 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[480px] "></div>
+				<div className="min-h-screen hidden md:flex justify-center items-center bg-sea1 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[480px] "></div>
 				<div className="container mx-auto  flex flex-col justify-center  bg-white p-10">
 					<span className="py-4">
 						Mihaqi Textile adopts a "5-s management" approach, which not only
@@ -41,7 +41,7 @@ export default function Home({ products }) {
 					</span>
 				</div>
 
-				<div className="min-h-screen flex justify-center items-center bg-sea2 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[480px] "></div>
+				<div className="min-h-screen hidden md:flex justify-center items-center bg-sea2 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[480px] "></div>
 			</main>
 		</>
 	);
