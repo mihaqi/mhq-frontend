@@ -11,21 +11,21 @@ const Contact = () => {
 				questions or requirements about our products and services, please feel
 				free to contact us at any time.
 			</span>
-			<hr className="py-2 md:py-6 mt-2 md:mt-6" />
+			<hr className="py-2 md:py-6 mt-2 md:mt-2" />
 			<div className="flex flex-col md:flex-row gap-4">
 				{/* left start */}
 				<div className=" w-full  flex flex-col text-left gap-6 p-2 text-sm md:text-md md:mt-10 ">
 					<span>Mihaqi Marketing Department</span>
 					<span>Phone number: (+86) 18758887700 /</span>
 					<span>
-						Company address: No. 21 Meihua Road, Xinmei Industrial Development
-						Zone, Kaiping City, Guangdong Province
+						Company address: North China Industrial Park, Keqiao District,
+						Shaoxing City, Zhejiang Province
 					</span>
 					<span>E-mail: mihaqi.cn@gmail.com</span>
 				</div>
 				{/* left end */}
 				{/* right start */}
-				<div className="">
+				<div className="w-[480px] h-[480px] overflow-hidden">
 					<Image
 						src="/office.jpg"
 						width={640}

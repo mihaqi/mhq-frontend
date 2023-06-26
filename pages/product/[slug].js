@@ -74,11 +74,23 @@ const ProductDetails = ({ product, products, whatsapp }) => {
 						{/* product Weight(Grams) */}
 						<div className="text-xs md:text-md   mb-2">Weight(GRAMS):</div>
 						{/* product height */}
-						<div className="text-xs md:text-md   mb-2">Height(CM):</div>
+						<div className="text-xs md:text-md   mb-2">
+							Composition:{p.composition}
+						</div>
+						<div className="text-xs md:text-md   mb-2">
+							Goods number:{p.goodsnumber}
+						</div>
 						{/* product desc */}
-						<div className="text-xs md:text-md  mb-5">{p.desc}</div>
+						<div className="text-xs md:text-md mt-2 mb-5">{p.desc}</div>
 
 						{/* Size Start */}
+						<div className="flex justify-between items-center gap-3">
+							<ul>
+								<li>{p.red}</li>
+								<li>{p.blue}</li>
+								<li>{p.yellow}</li>
+							</ul>
+						</div>
 						{/* Size end */}
 
 						{/*Email whatsapp contact start */}

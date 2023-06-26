@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,7 +8,7 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
 				<div className="transform overflow-hidden cursor-pointer">
 					<Image
 						className="w-full h-full object-cover group-hover:scale-110 duration-500"
-						src={p.thumbnail?.data?.attributes.url || "/p1.png"}
+						src={p.thumbnail?.data?.attributes.url}
 						width={640}
 						height={640}
 						alt={p.name}
@@ -17,7 +16,7 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
 				</div>
 				<div className="p-4 text-black/[0.9]">
 					<h2 className="text-sm md:text-md lg:text-lg font-medium">
-						{p.name.length > 10 ? `${p.name.slice(0, 10)}...` : p.name}
+						{p.name.slice(0, 60)}
 					</h2>
 				</div>
 			</Link>

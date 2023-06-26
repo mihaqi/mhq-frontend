@@ -1,4 +1,5 @@
 import HeroBanner from "@/components/HeroBanner";
+import HomeSubCategory from "@/components/HomeSubCategory";
 import ProductCard from "@/components/ProductCard";
 import Wrapper from "@/components/Wrapper";
 import { fetchDataFromApi } from "@/utils/api";
@@ -9,9 +10,13 @@ export default function Home({ products }) {
 			<main>
 				<Wrapper>
 					<HeroBanner />
+					{/* HomeSubCategory */}
+					<div className="my-14">
+						<HomeSubCategory />
+					</div>
 					{/* products grid start */}
 					<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-4 my-14  md:px-0">
-						{products?.data?.map((product) => (
+						{products?.data?.slice(0, 8).map((product) => (
 							<ProductCard
 								key={product?.id}
 								data={product}
@@ -20,7 +25,7 @@ export default function Home({ products }) {
 					</div>
 					{/* products grid end */}
 				</Wrapper>
-				<div className="min-h-screen flex justify-center items-center bg-sea1 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[480px] "></div>
+				<div className="min-h-screen hidden md:flex justify-center items-center bg-sea1 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[260px] md:h-[480px] "></div>
 				<div className="container mx-auto  flex flex-col justify-center  bg-white p-10">
 					<span className="py-4">
 						Mihaqi Textile adopts a "5-s management" approach, which not only
@@ -41,7 +46,7 @@ export default function Home({ products }) {
 					</span>
 				</div>
 
-				<div className="min-h-screen flex justify-center items-center bg-sea2 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[480px] "></div>
+				<div className="min-h-screen hidden md:flex justify-center items-center bg-sea2 bg-fixed bg-cover bg-no-repeat w-[1920px] h-[260px] md:h-[480px] "></div>
 			</main>
 		</>
 	);

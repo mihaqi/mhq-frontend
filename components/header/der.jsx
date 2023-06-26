@@ -139,7 +139,7 @@ const Header = () => {
 										Product
 									</motion.li>
 								</Link>
-								<Link href={"/contact"}>
+								<Link href={"/products"}>
 									<motion.li
 										initial={{ x: 20, opacity: 0 }}
 										animate={{ x: 0, opacity: 1 }}
