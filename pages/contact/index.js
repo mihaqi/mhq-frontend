@@ -18,8 +18,8 @@ const Contact = () => {
 					<span>Mihaqi Marketing Department</span>
 					<span>Phone number: (+86) 18758887700 /</span>
 					<span>
-						Company address: North China Industrial Park, Keqiao District,
-						Shaoxing City, Zhejiang Province
+						Company address: No. 21 Meihua Road, Xinmei Industrial Development
+						Zone, Kaiping City, Guangdong Province
 					</span>
 					<span>E-mail: mihaqi.cn@gmail.com</span>
 				</div>
