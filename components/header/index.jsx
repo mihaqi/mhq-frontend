@@ -51,7 +51,7 @@ const Header = () => {
 				<Link href="/">
 					<img
 						src="/logo.png"
-						className="w-[120px] h-[28px] md-[180px]"
+						className="w-[124px] h-[28px] lg:w-[160px] lg:h-[36px]"
 						alt="Mihaqi logo"
 					/>
 				</Link>

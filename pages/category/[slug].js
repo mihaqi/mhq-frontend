@@ -28,7 +28,7 @@ const Category = ({ category, products, slug }) => {
 						{category?.data?.[0]?.attributes?.name}
 					</div>
 				</div>
-				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-14 px-5 md:px-0">
+				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 my-14 p-1 md:px-0">
 					{data?.data?.map((product) => (
 						<ProductCard
 							key={product?.id}
