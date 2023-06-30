@@ -19,6 +19,10 @@ export default function App({ Component, pageProps }) {
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
+				<meta
+					name="google-site-verification"
+					content="OBDGZzEB964DYqAxQBqUx_uLt7gs_QepsO4u7HMJ8MQ"
+				/>
 				<link
 					rel="icon"
 					href="/favicon.ico"
