@@ -23,7 +23,7 @@ const Footer = () => {
 					</Link>
 
 					<Link
-						href={"https://api.whatsapp.com/send?phone=18658584885"}
+						href={"https://api.whatsapp.com/send?phone=18758887700"}
 						className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
 					>
 						<FaWhatsapp size={20} />
