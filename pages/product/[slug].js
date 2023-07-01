@@ -145,7 +145,7 @@ const ProductDetails = ({ product, products, whatsapp }) => {
 								<textarea
 									className="w-full py-4 border border-gray-500 p-2"
 									type="text"
-									placeholder="Address..."
+									placeholder="Message..."
 									name="message"
 									onChange={(e) => setMessage(e.target.value)}
 								/>
