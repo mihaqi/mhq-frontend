@@ -105,7 +105,7 @@ const ProductDetails = ({ product, products, whatsapp }) => {
 								<p>Email Now</p>
 							</button>
 							<Link
-								href={"https://api.whatsapp.com/send?phone=18658584885"}
+								href={"https://api.whatsapp.com/send?phone=18758887700"}
 								target={"_blank"}
 								className="py-4 bg-green-500 p-4 text-white shadow-md rounded-md flex justify-center items-center gap-2"
 							>
