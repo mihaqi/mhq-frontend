@@ -22,6 +22,7 @@ export default function App({ Component, pageProps }) {
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
+				{/* Google verification */}
 				<meta
 					name="google-site-verification"
 					content="OBDGZzEB964DYqAxQBqUx_uLt7gs_QepsO4u7HMJ8MQ"
@@ -30,6 +31,7 @@ export default function App({ Component, pageProps }) {
 					rel="icon"
 					href="/favicon.ico"
 				/>
+				{/* Microsoft clarity */}
 				{(function (c, l, a, r, i, t, y) {
 					c[a] =
 						c[a] ||
