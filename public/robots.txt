@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mihaqi.eu/
+
+# Sitemaps
+Sitemap: https://mihaqi.eu/sitemap.xml
